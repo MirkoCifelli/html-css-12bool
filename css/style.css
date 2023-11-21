@@ -26,7 +26,31 @@ html {
     height: 60px;
     padding: 20px 0;
 }
+.box-new{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #006CFA;
+    margin-bottom: 10px;
+}
+
 .green{
     background-color: lightgreen;
     border: 1px solid #006CFA;
+
+}
+.special-box {
+    display: flex;
+    justify-content: space-around;
+}
+.inner-box {
+    width: 250px;
+    padding: 20px;
+    background-color: lightgreen;
+    text-align: center;
+    color: white;
+}
+.special-box-bet{
+    display: flex;
+    justify-content: space-between;
 }
